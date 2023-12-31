@@ -7,9 +7,6 @@ html {
   background-color: rgb(244, 208, 79);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.card-container {
   display: grid;
   place-items: center;
   align-content: center;
@@ -20,8 +17,8 @@ html {
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   padding: 20px;
-  width: max-content;
-  max-width: max-content;
+  /* width: max-content;
+  max-width: max-content; */
   margin: auto;
   text-align: left;
   box-shadow: 8px 8px rgb(0, 0, 0);
@@ -29,6 +26,7 @@ html {
 
 svg {
   border-radius: 15px;
+  width: 100%;
 }
 
 .text-container {
@@ -45,15 +43,33 @@ strong {
   padding: 8px 0;
 }
 
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+.card-title:hover {
+  cursor: pointer;
+  color: rgb(244, 208, 79);
+}
+
+.text {
+  color: rgb(163, 163, 163);
+  display: block;
+  width: 350px;
+  line-height: 1.5rem;
+}
+
 .author {
   display: flex;
-
   align-items: center;
+  width: max-content;
+  margin: 16px 0;
 }
 
 span {
   font-weight: bold;
-  margin-left: 8px;
+  margin-left: 16px;
 }
 
 footer {

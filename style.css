@@ -17,11 +17,14 @@ html {
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   padding: 20px;
-  /* width: max-content;
-  max-width: max-content; */
   margin: auto;
   text-align: left;
   box-shadow: 8px 8px rgb(0, 0, 0);
+}
+
+.card:hover {
+  z-index: 3;
+  box-shadow: 16px 16px rgb(0, 0, 0);
 }
 
 svg {
